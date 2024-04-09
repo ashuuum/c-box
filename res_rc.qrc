@@ -1,0 +1,19 @@
+<RCC>
+  <qresource prefix="res">
+    <file>res/enter.svg</file>
+    <file>res/duck.png</file>
+    <file>res/icon.png</file>
+    <file>res/about.svg</file>
+    <file>res/arrow.svg</file>
+    <file>res/decrypt.svg</file>
+    <file>res/encrypt.svg</file>
+    <file>res/icon.png</file>
+    <file>res/home.svg</file>
+    <file>res/login.png</file>
+    <file>res/open.svg</file>
+    <file>res/save.svg</file>
+    <file>res/search.svg</file>
+    <file>res/theme.svg</file>
+    <file>res/update.svg</file>
+  </qresource>
+</RCC>

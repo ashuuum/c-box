@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>873</width>
+    <height>611</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="res_rc.qrc">
+    <normaloff>:/res/res/icon.png</normaloff>:/res/res/icon.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QToolButton" name="toolButton">
+      <property name="styleSheet">
+       <string notr="true">QToolButton { 
+border: 1px solid gray; border-radius: 5px;
+}
+QToolButton:hover { 
+border-color: #6dad77;
+}</string>
+      </property>
+      <property name="text">
+       <string>...</string>
+      </property>
+      <property name="icon">
+       <iconset resource="res_rc.qrc">
+        <normaloff>:/res/res/arrow.svg</normaloff>:/res/res/arrow.svg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>20</width>
+        <height>20</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QToolButton" name="toolButton_2">
+      <property name="styleSheet">
+       <string notr="true">QToolButton { 
+border: 1px solid gray; border-radius: 5px;
+}
+QToolButton:hover { 
+border-color: #6dad77;
+}</string>
+      </property>
+      <property name="text">
+       <string>...</string>
+      </property>
+      <property name="icon">
+       <iconset resource="res_rc.qrc">
+        <normaloff>:/res/res/update.svg</normaloff>:/res/res/update.svg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>20</width>
+        <height>20</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0" colspan="9">
+     <widget class="QFrame" name="frame">
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="8">
+     <widget class="QToolButton" name="toolButton_4">
+      <property name="styleSheet">
+       <string notr="true">QToolButton { 
+border: 1px solid gray; border-radius: 5px;
+}
+QToolButton:hover { 
+border-color: #6dad77;
+}</string>
+      </property>
+      <property name="text">
+       <string>...</string>
+      </property>
+      <property name="icon">
+       <iconset resource="res_rc.qrc">
+        <normaloff>:/res/res/home.svg</normaloff>:/res/res/home.svg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>20</width>
+        <height>20</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="7">
+     <widget class="QToolButton" name="toolButton_3">
+      <property name="styleSheet">
+       <string notr="true">QToolButton { 
+border: 1px solid gray; border-radius: 5px;
+}
+QToolButton:hover { 
+border-color: #6dad77;
+}</string>
+      </property>
+      <property name="text">
+       <string>...</string>
+      </property>
+      <property name="icon">
+       <iconset resource="res_rc.qrc">
+        <normaloff>:/res/res/search.svg</normaloff>:/res/res/search.svg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>20</width>
+        <height>20</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2" colspan="5">
+     <widget class="QLineEdit" name="lineEdit">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit { 
+border: 1px solid gray; border-radius: 5px;
+}
+QLineEdit:hover { 
+border-color: #6dad77;
+}</string>
+      </property>
+      <property name="placeholderText">
+       <string>https://</string>
+      </property>
+      <property name="clearButtonEnabled">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <action name="actionOpen_file">
+   <property name="text">
+    <string>Open file</string>
+   </property>
+  </action>
+  <action name="actionSave_file">
+   <property name="text">
+    <string>Save file</string>
+   </property>
+  </action>
+  <action name="actionOpen_folder">
+   <property name="text">
+    <string>Open folder</string>
+   </property>
+  </action>
+  <action name="actionOpen_files">
+   <property name="text">
+    <string>Open files</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="res_rc.qrc"/>
+ </resources>
+ <connections/>
+</ui>
